@@ -1,0 +1,129 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+}
+.navigation a { text-decoration : none; color: #77a466;}
+.rogue-link a { text-decoration : none; }
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 399px;
+    float: left;
+    height: auto;
+    border-top: 1px solid #eee;
+}
+#footer {
+  clear: both;
+  margin: 0 400px 0 400px;
+}
+#rogue {
+  color: #77a466;
+  }
+/***** HEADER *****/
+h1 {
+  margin: 35px 0px 35px 0px;
+  text-transform: uppercase;
+
+}
+nav {
+    float: right;
+    margin: 30px 0px 30px 0px;
+    text-decoration: none;
+
+}
+nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 5px;
+    color: #77a466;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+/***** MAIN TEXT *****/
+
+.text h2 {
+color: #77a466;
+}
+
+.text p {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+#menu h3 {
+  padding: 10px 30px;
+}
+
+.menu-items {
+color: #77a466;
+font-size: 16px;
+line-height: 30px;
+padding: 0px 30px 0px 30px;
+}
+
+#reviews {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+#reviews h3,
+#contact h3 {
+	padding: 10px 30px;
+  line-height: 25px;
+}
+
+#reviews p,
+#contact p {
+	padding: 05px 30px;
+  font-size: 16px;
+  line-height: 25px;
+
+}
+
+/***** FOOTER *****/
+footer {
+margin: 0;
+clear:both;
+border-top: 1px solid #eee;
+text-align: center;
+}
+
+#fresh{
+  font-family: 'Dancing Script', cursive;
+  color: #77a466;
+  font-size: 25px;
+  line-height: 30px;
+  }
+
+  /***** PAGES *****/
+
+.about-text, .content-text, .location-text, {
+    color: black;
+    font-size: 16px;
+    line-height: 25px;
+    font-style: normal;
+}
+
+/***** MENU PAGE *****/
+
+.menu-items-detailed {
+color: #77a466;
+font-size: 16px;
+line-height: 30px;
+padding: 0px 30px 0px 0px;
+}
